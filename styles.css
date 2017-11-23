@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-imge: url('background.jpg');
+}
+
+.start-button {
+  margin-left: 121px;
+  margin-top: 1px;
+  width: 115px;
+  height: 40px;
+  background-image: url('Lisa1.jpg');
+  background-color:transparent;
+  background-repeat: repeat;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-size: 80%;
+  border:none;
+  box-shadow: 5px 5px 2.5px #888888;
+  color: white;
+  font-size:25px;
+}
+
+.funButton {
+  margin-left: 121px;
+  margin-top: 1px;
+  width: 115px;
+  height: 40px;
+  background-image: url('Lisa1.jpg');
+  background-color:transparent;
+  background-repeat: repeat;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-size: 80%;
+  border:none;
+  box-shadow: 5px 5px 2.5px #888888;
+  color: white;
+  font-size:25px;
+}
+
+.funButton:hover {
+  background-image: url('sad-face.png');
+  width: 150px;
+  height: 150px;
+  background-size: 100%;
+}
